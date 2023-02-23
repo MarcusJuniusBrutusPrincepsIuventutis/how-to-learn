@@ -319,7 +319,7 @@
 }
 
 .kaufman__triangle {
-  background-image: url("../../how-to-learn/images/kaufman-triangle.svg");
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   right: -210px;
   width: 877px;
@@ -333,7 +333,7 @@
 }
 
 .logo__place_footer{
-  background-image: url("../../how-to-learn/images/logo_place_footer.svg");
+  background-image: url("../images/logo_place_footer.svg");
   color: white;
   height: 32px;
   width: 228px;
