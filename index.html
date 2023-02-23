@@ -11,7 +11,7 @@
   <div class="page">
     <!--Код для "Научиться учиться"-->
     <header class="header flex-container_column">
-      <div class="logo_place_header"><img class="logo" src="../how-to-learn/images/logo_place_header.svg" alt="Логотип Яндекс-практикум"></div>
+      <div class="logo__place_header"><img class="logo" src="../how-to-learn/images/logo_place_header.svg" alt="Логотип Яндекс-практикум"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <div class="header__subtitle">Какие современные и эффективные подходы к обучению
         вы можете использовать в своей жизни?<a class="header__link" href="https://www.mozilla.org/ru/">
@@ -34,10 +34,10 @@
     </section>
 
 <!--Код для "Дигитс"-->
-    <section class="padding_top_100px">
-      <div class="digits flex-container padding_bottom_100px">
+    <section class="padding_top_100px padding_bottom_100px">
+      <div class="digits flex-container">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table flex-container">
           <li class="table__cell"><p class="table__heading">86 миллиардов</p><p class="table__text">Число нейронов в мозге человека</p></li>
           <li class="table__cell"><p class="table__heading">2.1 миллиарда</p><p class="table__text">Число нуждающихся в повышении квалификации</p><p class="table__text">Всемирный Банк, 2017</p></li>
@@ -55,7 +55,7 @@
     <section>
       <div class="feynman flex-container">
         <h2 class="feynman__title padding_top_100px">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="https://www.mozilla.org/ru/">Подробнее&rarr;</a>
         <img class="feynman__picture" src="images/feynman.png" alt="Изображение Ричарда Фейнмана, американского учёного">
 
@@ -66,7 +66,7 @@
     <section>
       <div class="kaufman flex-container">
         <h2 class="section-title_theme_dark padding_top_90px">Принципы обучения</h2>
-        <h3 class="section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <p class="section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table_theme_dark flex-container">
           <li class="table__cell_theme_dark"><p class="table__heading_theme_dark">1</p><p class="table__text_theme_dark">Выберите привлекательный проект.</p></li>
           <li class="table__cell_theme_dark"><p class="table__heading_theme_dark">2</p><p class="table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</li>
@@ -85,7 +85,28 @@
 
     <!--Код для футера-->
     <footer class="footer">
+      <div class="footer__columns flex-container">
+      <div class="footer__column_content_copyright flex-container">
+        <div class="logo logo__place_footer"></div>
+        <div class="footer__author">&copy Виктор Абанькин</div>
+      </div>
 
+      <div class="footer__column_content_info flex-container">
+        <div class="footer__column-heading"> О Практикуме</div>
+        <div class="footer__column-links flex-container">
+          <a class="footer__column-link" href="http://www.mozilla.org">Главная</a>
+          <a class="footer__column-link" href="http://www.mozilla.org">Концепция</a>
+          <a class="footer__column-link" href="http://www.mozilla.org">Наставники</a>
+        </div>
+      </div>
+
+      <div class="footer__column_content_social flex-container">
+        <div class="footer__column-heading">Coцсети</div>
+        <a class="footer__column-link" href="http://www.mozilla.org"><img class="footer__social-icon" src="youtube-icon.svg">Youtube</a>
+        <a class="footer__column-link" href="http://www.mozilla.org"><img class="footer__social-icon" src="../how-to-learn/images/vk_color_white.svg">Вконтакте</a>
+        <a class="footer__column-link" href="http://www.mozilla.org"><img class="footer__social-icon" src="../how-to-learn/images/vk_color_white.svg">TikTok</a>
+      </div>
+      </div>
     </footer>
   </div>
 </body>
